@@ -17,3 +17,10 @@ function checkCountValue() {
 function DisplayCount() {
     document.getElementById("countDisplay").innerText = count;
 }
+
+function resetCount() {
+    count = 0;
+    DisplayCount();
+    alert("the Followers count has been reset")
+
+}
